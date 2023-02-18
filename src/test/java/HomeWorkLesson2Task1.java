@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
-public class HomeWorkLesson2 {
+public class HomeWorkLesson2Task1 {
     static int a;
     static int b;
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите первое число");
@@ -10,7 +11,7 @@ public class HomeWorkLesson2 {
         System.out.println("Введите второе число");
         b = sc.nextInt();
         System.out.print("Результат проверки: ");
-        result(a,b);
+        result(a, b);
 
     }
     public static void result(int a, int b){
