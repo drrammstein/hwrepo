@@ -2,6 +2,7 @@ package main.java;
 
 public class Animal {
     protected int barrierLength;
+    protected int hunger;
 
     protected static void run(Animal animal, int barrierLength) {
         if (animal instanceof main.java.Cat && barrierLength > main.java.Cat.maxRunRange) {
@@ -29,4 +30,5 @@ public class Animal {
             System.out.println("Собака " + animal + " проплыла " + barrierLength + " метров.");
         }
     }
+
 }
